@@ -1,0 +1,179 @@
+{
+	"info": {
+		"_postman_id": "a6ef3a4f-7468-43f7-89a7-6a07ba06809e",
+		"name": "Home_Work_Testing API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Test_Add",
+			"id": "d1dce368-cf51-4cbe-b9cd-9ac5291baf07",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://czechitas-api.vercel.app/api/math/add?a=5&b=7",
+					"protocol": "https",
+					"host": [
+						"czechitas-api",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"math",
+						"add"
+					],
+					"query": [
+						{
+							"key": "a",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "b",
+							"value": "7",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test_subtraction",
+			"id": "ed23cd6c-f130-4650-b4e2-fb2cf6a12fbf",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"a\": 10,\r\n  \"b\": -25\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://czechitas-api.vercel.app/api/math/add?a=10&b=-25",
+					"protocol": "https",
+					"host": [
+						"czechitas-api",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"math",
+						"add"
+					],
+					"query": [
+						{
+							"key": "a",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "b",
+							"value": "-25",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test_division",
+			"id": "61bb5fdb-8875-4c71-8b09-fe144d6b4837",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://czechitas-api.vercel.app/api/math/add?a=5&b=7",
+					"protocol": "https",
+					"host": [
+						"czechitas-api",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"math",
+						"add"
+					],
+					"query": [
+						{
+							"key": "a",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "b",
+							"value": "7",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test_multiplication",
+			"id": "bc12f8ba-812e-470e-b585-0356c27a0676",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"multiplier\": 5,\r\n  \"multiplicand\": 10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://czechitas-api.vercel.app/api/math/add",
+					"protocol": "https",
+					"host": [
+						"czechitas-api",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"math",
+						"add"
+					],
+					"query": [
+						{
+							"key": "a",
+							"value": "5",
+							"disabled": true
+						},
+						{
+							"key": "b",
+							"value": "10",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
