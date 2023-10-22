@@ -92,6 +92,18 @@
 		},
 		{
 			"name": "Test_multiplication",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "3c525361-6116-4040-922d-49b79f0ce199",
+						"exec": [
+							"pm.variables.set(\"result\", pm.response.json().result);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "bc12f8ba-812e-470e-b585-0356c27a0676",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
