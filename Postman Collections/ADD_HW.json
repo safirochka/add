@@ -103,6 +103,16 @@
 						],
 						"type": "text/javascript"
 					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "74afd2da-2d28-4b94-a640-455164023b56",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
 				}
 			],
 			"id": "bc12f8ba-812e-470e-b585-0356c27a0676",
@@ -114,7 +124,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"number1\": 3,\r\n  \"number2\": 4\r\n}",
+					"raw": "{\r\n  \"number1\": 3,\r\n  \"number2\": 4  \r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -137,17 +147,13 @@
 					"query": [
 						{
 							"key": "a",
-							"value": "3"
+							"value": "3",
+							"type": "text"
 						},
 						{
 							"key": "b",
-							"value": "4"
-						},
-						{
-							"key": "result",
-							"value": "7",
-							"type": "text",
-							"disabled": true
+							"value": "4",
+							"type": "text"
 						}
 					]
 				}
